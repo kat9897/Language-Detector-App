@@ -1,0 +1,71 @@
+.logo, .para {
+    color: royalblue;
+    width: 900px;
+    font-family: cursive;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(234, 241, 243);
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #5995DA;
+    padding: 20px 20px;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    font-size: x-large;
+    justify-content: flex-end;
+}
+
+.predict {
+    margin-left: 20px;
+}
+
+.about {
+    margin-left: 20px;
+}
+
+a {
+    color: white;
+    font-family: cursive;
+}
+
+form,
+textarea {
+    font-size: 20px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 2px 5px;
+    height: 48px;
+    width: 75%;
+    color: royalblue;
+    margin-bottom: 16px;
+}
+
+input[type='submit'] {
+    color: royalblue;
+    font-family: cursive;
+    font-size: large;
+}
+
+.results {
+    font-size: 150%;
+}
+
+h2, h4 {
+    font-family: cursive;
+    color: royalblue;
+}
